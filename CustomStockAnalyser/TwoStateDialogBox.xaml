@@ -1,0 +1,14 @@
+﻿<Window x:Class="CustomStockAnalyser.TwoStateDialogBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TwoStateDialogBox" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
+    <StackPanel>
+        <TextBlock Name="QuestionTextBlock" Margin="10" HorizontalAlignment="Center" FontSize="12" FontWeight="Bold">Question</TextBlock>
+        
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <Button Name="FirstBtn" Margin="10" Click="DecisionBtn_Click">Yes</Button>
+            <Button Name="SecondBtn" Margin="10" Click="DecisionBtn_Click" IsDefault="True">No</Button>
+        </StackPanel>
+        
+    </StackPanel>
+</Window>

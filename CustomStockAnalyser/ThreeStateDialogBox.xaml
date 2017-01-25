@@ -1,0 +1,17 @@
+﻿<Window x:Class="CustomStockAnalyser.ThreeStateDialogBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ThreeStateDialogBox" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
+
+    <StackPanel>
+        <TextBlock Name="QuestionTextBlock" Margin="10" HorizontalAlignment="Center" FontSize="12" FontWeight="Bold">Question</TextBlock>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <Button Name="FirstBtn" Margin="10" Click="DecisionBtn_Click">Usuń z plikami</Button>
+            <Button Name="SecondBtn" Margin="10" Click="DecisionBtn_Click">Usuń z listy</Button>
+            <Button Name="ThirdButton" Margin="10" Click="DecisionBtn_Click" IsDefault="True">Anuluj</Button>
+        </StackPanel>
+
+    </StackPanel>
+
+</Window>

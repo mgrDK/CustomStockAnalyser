@@ -1,0 +1,11 @@
+﻿<Window x:Class="CustomStockAnalyser.OneStateDialogBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="OneStateDialogBox" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
+    <StackPanel>
+        <TextBlock Name="DialogTextBlock" Margin="10" HorizontalAlignment="Center" FontSize="12"></TextBlock>
+       
+        <Button Name="onlyBtn" HorizontalAlignment="Right"  Margin="10" IsDefault="True" Click="DecisionBtn_Click">Ok</Button>
+  
+    </StackPanel>
+</Window>
