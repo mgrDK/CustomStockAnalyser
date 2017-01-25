@@ -76,6 +76,7 @@ namespace CustomStockAnalyser
             //Regulacja parametru areaWidth
             for (; areaWidth >= Math.Ceiling((double)stock.Samples.Count / maxCount); areaWidth--)
             {
+                //szczyty
                 List<Sample> peaks = new List<Sample>();
 
                 //Sprawdzanie kolejnych obszarów w celu znalezienia szczytu
